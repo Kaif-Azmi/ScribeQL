@@ -1,0 +1,11 @@
+{
+  "name": "scribeql-root",
+  "private": true,
+  "description": "ScribeQL root launcher scripts for frontend and backend development",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "dev:backend": "python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 --app-dir backend"
+  }
+}

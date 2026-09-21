@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 5vw;
+  position: relative;
+  z-index: 4;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mark {
+  width: 22px;
+  height: 22px;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navGhost {
+  color: #d4d4d8;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.navGhost:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.45rem;
+}
+
+.navCta:hover {
+  background: #f4f4f5;
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  .navGhost {
+    display: none;
+  }
+}
